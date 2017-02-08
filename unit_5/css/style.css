@@ -1,11 +1,20 @@
 
 header {
-	width: 100%;
-	box-sizing: border-box;
-	background-color: #fff;	  
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px	  
 }
-body {
-	background-color: #e6e6e6;
+
+nav {
+	background-color: #E8C664;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 a:hover {
 	background-color: #e6e6e6;
@@ -43,7 +52,7 @@ img.resize {
 }
 h1 {
 	text-align: center;
-	color: #992600;
+	color: ##000;
 	font-family: "Quintessential", cursive;
 	font-size: 30px;
 }
@@ -73,6 +82,14 @@ p {
 	display:block;
 }
 #collage {
+	display: block;
 	background-color: #fff;
-	margin: 1em auto;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: left;
 }
