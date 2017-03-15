@@ -1,0 +1,144 @@
+header {
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 1em 0;  
+}
+nav {
+	background-color: #e6e6e6;
+	border: 1px black solid;
+	padding: 20px;
+}
+section {
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 20px;
+}
+a:hover {
+	background-color: #ffe699;
+}
+.alignleft {
+	float: left;
+	width:45%;
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 32px;
+	font-style: bold;
+	color: #992600;
+}
+.aligncenter {
+	float: left;
+	width:10%;
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 32px;
+	font-style: bold;
+	color: #992600;
+}
+.alignright {
+	float: left;
+	width:45%;
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 32px;
+	font-style: bold;
+	color: #992600;
+}
+h1 {
+	text-align: center;
+	color: #992600;
+	font-family: "Quintessential", cursive;
+	font-size: 30px;
+}
+hr {
+	color: #000;
+	width: 600px;
+	font-style: bold;
+}
+p {
+   	text-align: center;
+   	color: #000;
+   	font-family: "Courier New";
+   	font-size: 20px;
+}
+#textbox {
+	background-color: #fff;
+	margin: 1em auto;
+}
+.clearfix:after {
+	content: ' ';
+	visibility:hidden;
+	font-size: 0px;
+	clear: both;
+	height: 0px;
+	display:block;
+}
+#collage {
+	display: block;
+	background-color: #fff;
+	margin: 0 auto;
+	width: 80%;
+}
+footer {
+	background-color: #e6e6e6;
+	border: 1px black solid;
+	padding: 1em 0;
+	clear: both;
+	text-align: right;
+}
+@media only screen and (max-width: 1035px) {
+	body {
+		font-size: 16px;
+	}
+	.alignleft {
+		font-size: 2em;
+	}
+	.aligncenter {
+		font-size: 2em;
+	}
+	.alignright {
+		font-size: 2em;
+	}
+	img {
+		width: 720px;
+	}
+}
+@media only screen and (max-width: 865px) {
+	.alignleft {
+		font-size: 2em;
+	}
+	.aligncenter {
+		font-size: 2em;
+	}
+	.alignright {
+		font-size: 2em;
+	}
+	img {
+		width: 520px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.alignleft {
+		font-size: 2em;
+		float: none;
+		text-align: left;
+	}
+	.aligncenter {
+		font-size: 2em;
+		float: none;
+		text-align: left;
+	}
+	.alignright {
+		font-size: 2em;
+		float: none;
+		text-align: left;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	p {
+		font-size: 1.2em;
+	}
+	img {
+		width: 320px;
+	}	
+}
